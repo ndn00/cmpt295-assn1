@@ -21,6 +21,12 @@ int main() {
 
 /* Add your test cases here in order
    to test your new functions. */
+    show_bits(ival);
+    show_bits(-ival);
+    printf("%d \n",mask_LSbits(2));
+    printf("%d \n",mask_LSbits(15));
+    printf("%d \n",mask_LSbits(33));
+    printf("%d \n",mask_LSbits(0));
 
     return 0;
 
