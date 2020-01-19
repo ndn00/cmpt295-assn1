@@ -1,3 +1,8 @@
+/*
+ * Name: Duy Nguyen
+ * Student Number: 301379431
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
