@@ -6,8 +6,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <limits.h> // for INT_MIN
-#include <stdint.h> // for SIZE_MAX
+#include <stdint.h> //for SIZE_MAX
+//# define SIZE_MAX		(18446744073709551615UL)  //alternative macro for SIZE_MAX
 
 typedef unsigned char *byte_pointer;
 
