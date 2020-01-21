@@ -15,7 +15,7 @@ void show_bytes(byte_pointer start, size_t len) {
     size_t i;
 
     for (i = 0; i < len; i++)
-		printf(" %p %.2x", start+i, *(start+i)); 
+		printf(" %p 0x%.2x", start+i, *(start+i)); 
     printf("\n");	
 }
 
