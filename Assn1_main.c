@@ -23,6 +23,7 @@ int main() {
    to test your new functions. */
     show_bits(ival);
     show_bits(-ival);
+    show_bits(150);
     printf("%d \t",mask_LSbits(2));
     show_bits(mask_LSbits(2));
     printf("%d \t",mask_LSbits(15));

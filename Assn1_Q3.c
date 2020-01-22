@@ -35,6 +35,7 @@ void show_pointer(void *x) {
 }
 
 int bit_pattern(int x) {    //generate bitpatern from decimals
+    //note: x is always unsigned as it's always preceded by 24 0's
     int pos = 0;
     int pow = 1;
     int ret = 0;
